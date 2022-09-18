@@ -1,4 +1,4 @@
-(footprint "KB2040 through hole only (modified from Elite-C-castellated-24pin-holes) (top mount 3d model view)" (version 20211014) (generator pcbnew)
+(footprint "KB2040 through hole only (top mount 3d model view)" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
   (tedit 5E2CA08B)
   (attr through_hole)
@@ -218,6 +218,10 @@
     (effects (font (size 0.8 0.8) (thickness 0.15)) (justify left))
     (tstamp ebe1f729-c49d-443e-938b-397f80d89994)
   )
+  (fp_text user "bt" (at -16.1 0 unlocked) (layer "F.SilkS")
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp fbdf94dc-8139-4097-815f-9321c88b31c8)
+  )
   (fp_line (start -15.24 6.35) (end -15.24 8.89) (layer "B.SilkS") (width 0.381) (tstamp 355d4800-c906-49d5-82c1-610fd579d4cd))
   (fp_line (start -17.78 -8.89) (end -17.78 8.89) (layer "B.SilkS") (width 0.381) (tstamp 40af078b-cab0-4e8e-9b24-5dc9406344c2))
   (fp_line (start -12.7 6.35) (end -15.24 6.35) (layer "B.SilkS") (width 0.381) (tstamp 6d283713-da9f-466f-b165-73f791a95cd9))
@@ -264,17 +268,17 @@
   (pad "23" thru_hole circle (at -11.43 -7.62) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) (tstamp 6d3af1a8-3d37-4024-8f4e-b703888f9b42))
   (pad "24" thru_hole circle (at -13.97 -7.62) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) (tstamp 7a29df36-9792-4b71-acf7-8ab3d7a6031c))
   (pad "25" thru_hole circle (at -16.51 -7.62) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) (tstamp 49e4ded8-1f9f-465d-aed0-4d92e6b80a12))
-  (model "${KIPRJMOD}/PeteCB Kicad Library/models/5302 KB2040.step"
+  (model "${KIPRJMOD}/../Project Libraries/PeteCB-Kicad-Library/models/5302 KB2040.step"
     (offset (xyz -17.75 -8.9 2.5))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
-  (model "${KIPRJMOD}/PeteCB Kicad Library/models/pins.step"
+  (model "${KIPRJMOD}/../Project Libraries/PeteCB-Kicad-Library/models/pins.step"
     (offset (xyz -15.2 -6.35 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 90 180 -90))
   )
-  (model "${KIPRJMOD}/PeteCB Kicad Library/models/pins.step"
+  (model "${KIPRJMOD}/../Project Libraries/PeteCB-Kicad-Library/models/pins.step"
     (offset (xyz 12.7 6.35 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 90 180 90))

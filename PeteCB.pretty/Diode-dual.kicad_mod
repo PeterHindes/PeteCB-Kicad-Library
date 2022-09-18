@@ -31,7 +31,7 @@
   (pad "2" thru_hole rect (at 3.9 0) (size 1.6 1.6) (drill 1) (layers *.Cu *.Mask "F.SilkS") (tstamp 6bbe8150-a297-4651-b57b-ec794b582790))
   (pad "2" smd rect (at 1.4 0) (size 1.6 1.2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 88b51f55-e0d4-4f3e-b5b8-627a0b360b7b))
   (pad "2" smd rect (at 2.5 0) (size 2.9 0.5) (layers "B.Cu") (tstamp c0759cea-71cc-407f-a393-2dbcc468ea6c))
-  (model "${KIPRJMOD}/PeteCB Kicad Library/models/diode v1.step"
+  (model "${KIPRJMOD}/../Project Libraries/PeteCB-Kicad-Library/models/diode v1.step"
     (offset (xyz 1.5 -1 1))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 90 0))

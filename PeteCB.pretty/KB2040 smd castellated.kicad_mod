@@ -1,4 +1,4 @@
-(footprint "KB2040 (modified from Elite-C-castellated-24pin)" (version 20211014) (generator pcbnew)
+(footprint "KB2040 smd castellated" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
   (tedit 5E2CA08B)
   (attr through_hole)
@@ -147,7 +147,7 @@
   (pad "23" smd rect (at -11.43 -9.398) (size 2 3.25) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 073c3b81-f87c-40d3-bbb8-a53f4cd3a45e))
   (pad "24" smd rect (at -13.97 -9.398) (size 2 3.25) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp c96cf20b-97eb-4bbe-9b13-72922ee1a63f))
   (pad "25" smd rect (at -16.51 -9.398) (size 2 3.25) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp a2e52dc2-6313-49a0-8f7b-44cd37f4c7d6))
-  (model "${KIPRJMOD}/PeteCB Kicad Library/models/5302 KB2040.step"
+  (model "${KIPRJMOD}/../Project Libraries/PeteCB-Kicad-Library/models/5302 KB2040.step"
     (offset (xyz -17.5 -8.9 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

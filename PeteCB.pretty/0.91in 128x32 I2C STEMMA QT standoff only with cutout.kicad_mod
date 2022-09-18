@@ -784,7 +784,7 @@
       ffb44fc4-747d-4bda-8371-7f0972655c72
     )
   )
-  (model "${KIPRJMOD}/PeteCB Kicad Library/models/adafruit oled.step"
+  (model "${KIPRJMOD}/../Project Libraries/PeteCB-Kicad-Library/models/adafruit oled.step"
     (offset (xyz -16.5 11 5))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
