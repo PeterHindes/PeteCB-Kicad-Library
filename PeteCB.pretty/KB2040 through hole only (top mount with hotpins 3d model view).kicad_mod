@@ -1,4 +1,4 @@
-(footprint "KB2040 through hole only (top mount 3d model view)" (version 20211014) (generator pcbnew)
+(footprint "KB2040 through hole only (top mount with hotpins 3d model view)" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
   (tedit 5E2CA08B)
   (attr through_hole)
@@ -265,18 +265,28 @@
   (pad "24" thru_hole circle (at -13.97 -7.62) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) (tstamp 7a29df36-9792-4b71-acf7-8ab3d7a6031c))
   (pad "25" thru_hole circle (at -16.51 -7.62) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) (tstamp 49e4ded8-1f9f-465d-aed0-4d92e6b80a12))
   (model "${KIPRJMOD}/../Project Libraries/PeteCB-Kicad-Library/models/5302 KB2040.step"
-    (offset (xyz -17.75 -8.9 2.5))
+    (offset (xyz -17.75 -8.9 11.5))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
   (model "${KIPRJMOD}/../Project Libraries/PeteCB-Kicad-Library/models/pins.step"
-    (offset (xyz -15.2 -6.35 0))
+    (offset (xyz -15 -9 11))
     (scale (xyz 1 1 1))
-    (rotate (xyz 90 180 -90))
+    (rotate (xyz 90 0 -90))
   )
   (model "${KIPRJMOD}/../Project Libraries/PeteCB-Kicad-Library/models/pins.step"
-    (offset (xyz 12.7 6.35 0))
+    (offset (xyz 13 9 11))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 90 0 90))
+  )
+  (model "${KIPRJMOD}/../Project Libraries/PeteCB-Kicad-Library/models/female pins.step"
+    (offset (xyz 15.5 -4 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 90 180 90))
+  )
+  (model "${KIPRJMOD}/../Project Libraries/PeteCB-Kicad-Library/models/female pins.step"
+    (offset (xyz -15.5 4 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 90))
   )
 )

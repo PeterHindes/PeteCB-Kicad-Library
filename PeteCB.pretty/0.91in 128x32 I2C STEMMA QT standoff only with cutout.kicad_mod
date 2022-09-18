@@ -1,7 +1,7 @@
 (footprint "0.91in 128x32 I2C STEMMA QT standoff only with cutout" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
   (tedit 0)
-  (attr smd)
+  (attr through_hole)
   (fp_text reference "REF**" (at 0.346739 -1.627007 unlocked) (layer "F.SilkS")
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp f14555be-568d-4a54-8166-451423963e42)
@@ -784,8 +784,8 @@
       ffb44fc4-747d-4bda-8371-7f0972655c72
     )
   )
-  (model "${KIPRJMOD}/../Project Libraries/PeteCB-Kicad-Library/models/adafruit oled.step"
-    (offset (xyz -16.5 11 5))
+  (model "${KIPRJMOD}/../Project Libraries/PeteCB-Kicad-Library/models/adafruit oled with standoffs.step"
+    (offset (xyz -16.5 11 20))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
   )
