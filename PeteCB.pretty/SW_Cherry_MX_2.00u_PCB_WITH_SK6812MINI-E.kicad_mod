@@ -87,9 +87,4 @@
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 -90))
   )
-  (model "${KIPRJMOD}/../Project Libraries/PeteCB-Kicad-Library/models/LED_SK6812MINI-E.step" hide
-    (offset (xyz -19 -9.5 -1.75))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 180 0))
-  )
 )
