@@ -96,17 +96,17 @@
     )
   )
   (model "${KIPRJMOD}/../Project Libraries/PeteCB-Kicad-Library/models/Kailh Polia base only.step"
-    (offset (xyz -9.525 -9.525 5))
+    (offset (xyz -12.025 -9.525 5))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 -90))
   )
   (model "${KIPRJMOD}/../Project Libraries/PeteCB-Kicad-Library/models/LED_SK6812MINI-E.step"
-    (offset (xyz -9.535 -19.6 0))
+    (offset (xyz -12.035 -19.6 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 180))
   )
   (model "${KIPRJMOD}/../Project Libraries/PeteCB-Kicad-Library/models/Kailh Hotswap MX v22.step"
-    (offset (xyz -10.125 -4.775 -3.6))
+    (offset (xyz -12.625 -4.775 -3.6))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 180))
   )

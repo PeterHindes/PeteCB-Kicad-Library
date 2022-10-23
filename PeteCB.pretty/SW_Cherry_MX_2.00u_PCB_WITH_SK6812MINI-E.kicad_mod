@@ -109,4 +109,9 @@
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 -90))
   )
+  (model "${KIPRJMOD}/../Project Libraries/PeteCB-Kicad-Library/models/Kailh Hotswap MX v22.step"
+    (offset (xyz -19.5 -4.5 -3.5))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 180))
+  )
 )
